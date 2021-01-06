@@ -1,3 +1,19 @@
 .bold {
     font-weight: bold;
 }
+.ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.ball.half {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.yellow {
+    background: #fcbf39;
+}
+.txt-center {
+    text-align: center;
+}
