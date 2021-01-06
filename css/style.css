@@ -153,6 +153,9 @@ header {
 #combos {
     margin-bottom: 1rem;
 }
+#combos .card {
+    margin-top: 1rem;
+}
 #combos .card-title {
     font-size: 2rem;
 }
