@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Freela</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/utils.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +27,7 @@
         <div class="depoimentos">
             <p class="bold">Depoimentos de pessoas como nós</p>
             <p>compartilhando experiências reais</p>
+            <span class="quote">"</span>
             <div class="carousel">
                 <div class="item" id="depoimento-1">
                     <p class="depoimento">
@@ -51,7 +54,25 @@
                     <p class="autor">Marina Souza</p>
                 </div>
             </div>
+            <p>Esses são depoimentos comuns entre milhares de
+                mulheres que precisam usar meias compressivas e não
+                se sentem à vontade para mostrar suas pernas vestidas
+                de meias que não valorizam seu visual.</p>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    <script>
+        $(() => {
+            $('.carousel').slick({
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+        })
+    </script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "American Typewriter";
+    src: url("/fonts/American Typewriter.ttf") format("ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +9,12 @@
 header {
     font-family: Montserrat;
     width: 100vw;
+    font-size: 16px;
 }
 .container {
     width: 90vw;
     font-family: Montserrat;
-    font-size: 8pt;
+    font-size: 12px;
     margin: auto;
 }
 .topo {
@@ -31,7 +36,7 @@ header {
     float: right;
 }
 .title {
-    font-size: 12pt;
+    font-size: 1.2em;
     text-align: center;
     line-height: 150%;
 }
@@ -40,24 +45,36 @@ header {
     color: #cd9f31;
 }
 .title p:last-child {
-    font-size: 10pt;
+    font-size: 0.7em;
 }
 .title span {
     font-weight: bold;
     color: #db0452;
 }
 .depoimentos {
+    position: relative;
     margin-top: 1rem;
 }
 .depoimentos .carousel {
-    font-size: 6pt;
-    margin-top: 1.5rem;
+    font-size: 1em;
+    margin: 1.5rem 0;
+    margin-left: 5vw;
+    width: 80vw;
 }
-.carousel .item {
-    display: none;
-    width: 100%;
-    height: 100%;
+.depoimentos .depoimento {
+    width: 70%;
+    margin: auto;
 }
-.carousel .item:target {
-    display: block;
+.depoimentos .autor {
+    margin-top: 0.5rem;
+}
+.depoimentos .quote {
+    position: absolute;
+    font-size: 4rem;
+    font-family: American Typewriter;
+    color: #db0452;
+    left: 1rem;
+}
+.slick-prev::before, .slick-next::before {
+    color: black;
 }
