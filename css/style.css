@@ -99,6 +99,63 @@ header {
 .card p {
     font-size: 0.9em;
 }
+.ball img {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin: 50%;
+    transform: translate(-50%, -50%);
+}
+.price {
+    margin-top: 1rem;
+    background: rgba(83, 209, 75, 0.5);
+    padding: 0.3rem;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+.price span {
+    font-size: 1.2rem;
+}
+.checks {
+    margin-top: 1.2rem;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.checks ul {
+    list-style: none;
+}
+.checks ul li::before {
+    content: "\2713";
+    background: rgba(143, 242, 137, 0.5);
+    padding: 4px 0;
+    border-radius: 50%;
+    color: #24971d;
+    font-weight: bold;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    text-align: center;
+    margin-right: 5px;
+}
+.row {
+    margin-top: 1rem;
+}
+.btn {
+    background: #24971d;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+#combos {
+    margin-bottom: 1rem;
+}
+#combos .card-title {
+    font-size: 2rem;
+}
 #video {
     position: relative;
     overflow: hidden;
