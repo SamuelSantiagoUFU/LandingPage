@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: Montserrat;
+    width: 100vw;
+}
+.container {
+    width: 90vw;
+    font-family: Montserrat;
+    font-size: 8pt;
+    margin: auto;
+}
+.topo {
+    width: 100%;
+}
+.topo .logo {
+    width: 100%;
+    height: auto;
+}
+.topo .balls {
+    width: 100%;
+    margin-top: -5px;
+}
+.topo .balls img {
+    width: 25%;
+}
+.balls .right {
+    transform: scaleX(-1);
+    float: right;
+}
+.title {
+    font-size: 12pt;
+    text-align: center;
+    line-height: 150%;
+}
+.title p:first-child {
+    font-weight: bolder;
+    color: #cd9f31;
+}
+.title p:last-child {
+    font-size: 10pt;
+}
+.title span {
+    font-weight: bold;
+    color: #db0452;
+}
+.depoimentos {
+    margin-top: 1rem;
+}
+.depoimentos .carousel {
+    font-size: 6pt;
+    margin-top: 1.5rem;
+}
+.carousel .item {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.carousel .item:target {
+    display: block;
+}
