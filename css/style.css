@@ -127,10 +127,16 @@ header {
     font-weight: bold;
     font-size: 1.2em;
 }
-.checks ul {
+.checks ul, #porque-usar ul {
     list-style: none;
 }
-.checks ul li::before {
+#porque-usar ul li p {
+    padding-left: 2rem;
+}
+#porque-usar > .row > p {
+    font-size: 1.2em;
+}
+.checks ul li::before, #porque-usar ul li::before {
     content: "\2713";
     background: rgba(143, 242, 137, 0.5);
     padding: 4px 0;
@@ -182,6 +188,16 @@ header {
 }
 #depoimento-2 .quote {
     top: -2rem;
+}
+#depoimento-3 {
+    display: flex;
+    flex-direction: row;
+}
+#depoimento-3 .col-6:first-child {
+    padding-left: 3em;
+}
+#depoimento-3 p.depoimento {
+    margin-top: 3rem;
 }
 #combos {
     margin-bottom: 1rem;
