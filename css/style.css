@@ -150,6 +150,19 @@ header {
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 }
+.fotos {
+    margin: 6rem 0;
+}
+.fotos .foto {
+    width: calc(50% - 1vw);
+    display: inline-block;
+}
+.fotos .foto img {
+    width: calc(100% - 10px);
+    border: 4px solid white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
 #combos {
     margin-bottom: 1rem;
 }
