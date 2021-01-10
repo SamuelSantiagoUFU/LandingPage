@@ -130,11 +130,34 @@ header {
 .checks ul, #porque-usar ul {
     list-style: none;
 }
+#porque-usar {
+    position: relative;
+}
 #porque-usar ul li p {
     padding-left: 2rem;
 }
+#porque-usar .row:nth-child(2) {
+    margin-top: 11rem;
+}
 #porque-usar > .row > p {
     font-size: 1.2em;
+}
+#porque-usar > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #56691e;
+    background: #ffff29;
+    padding: 5px;
+    transform: rotateZ(21deg);
+    left: -16%;
+    top: 7%;
+    width: 150%;
+    position: absolute;
+}
+#porque-usar > h2 > span {
+    color: #ffffff;
+    background: #56691e;
+    padding: 3px;
 }
 .checks ul li::before, #porque-usar ul li::before {
     content: "\2713";
