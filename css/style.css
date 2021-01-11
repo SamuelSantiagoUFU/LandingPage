@@ -17,7 +17,7 @@ header {
 .container {
     width: 90vw;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 18px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ header {
     float: right;
 }
 .title {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
     line-height: 150%;
 }
@@ -50,7 +50,8 @@ header {
     color: #cd9f31;
 }
 .title p:last-child {
-    font-size: 0.7em;
+    font-size: 0.8em;
+    color: #777777;
 }
 .title span {
     font-weight: bold;
