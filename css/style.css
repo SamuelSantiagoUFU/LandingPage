@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    width: 100vw;
+}
 header {
     font-family: Montserrat;
     width: 100vw;
@@ -61,7 +64,7 @@ header {
     font-size: 1em;
     margin: 1.5rem 0;
     margin-left: 5vw;
-    width: 80vw;
+    width: 80%;
 }
 .depoimentos .depoimento {
     width: 70%;
@@ -88,6 +91,7 @@ header {
 #garantia {
     position: relative;
 }
+
 .card {
     padding: 1.2rem;
     box-shadow: 0 0 2em 0 rgba(0,0,0,0.15);
@@ -132,6 +136,7 @@ header {
 }
 #porque-usar {
     position: relative;
+    height: auto;
 }
 #porque-usar ul li p {
     padding-left: 2rem;
@@ -255,4 +260,19 @@ header {
 }
 #tree img {
     width: 100%;
+}
+svg {
+    position: relative;
+}
+@media screen and (min-width: 1024px) {
+    header {
+        font-size: 24px;
+    }
+    .container {
+        font-size: 14px;
+    }
+    #tree {
+        bottom: -1em;
+        width: 50%;
+    }
 }

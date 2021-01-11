@@ -45,12 +45,52 @@
 .shadow {
     box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
 }
+.row {
+    display: inline;
+}
 .row .col-6 {
     width: calc(50% - 1vw);
 }
 .row.full .col-6 {
     width: 50%;
 }
+.col-12 {
+    margin-top: 1em;
+}
 .col-6 * {
     width: 100%;
+}
+.mobile-only {
+    display: inline-block;
+}
+.desktop-only {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    svg {
+        position: absolute;
+    }
+    .mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: inline-block;
+    }
+    .container {
+        width: 75vw;
+    }
+    .full {
+        width: 100%;
+        margin-left: 0;
+    }
+    .row .col-d-4 {
+        width: calc(33.3333% - 1vw);
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .col-d-6 {
+        width: calc(50% - 1vw);
+        display: inline-block;
+        position: relative;
+    }
 }
