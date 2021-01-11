@@ -138,6 +138,9 @@ header {
 .checks ul, #porque-usar ul {
     list-style: none;
 }
+.beneficios-description {
+    font-size: 11px;
+}
 #porque-usar {
     position: relative;
     height: auto;
