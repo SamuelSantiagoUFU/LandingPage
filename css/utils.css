@@ -94,6 +94,10 @@
     .desktop-only {
         display: inline-block;
     }
+    header {
+        width: 60vw;
+        margin: auto;
+    }
     .container {
         width: 75vw;
     }
@@ -110,5 +114,10 @@
         width: calc(50% - 1vw);
         display: inline-block;
         position: relative;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 50vw;
     }
 }
