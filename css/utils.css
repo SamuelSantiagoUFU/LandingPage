@@ -85,6 +85,9 @@
     display: none;
 }
 @media screen and (min-width: 1024px) {
+    #video {
+        top: -150px;
+    }
     svg {
         position: absolute;
     }
@@ -99,7 +102,7 @@
         margin: auto;
     }
     .container {
-        width: 75vw;
+        width: 50vw;
     }
     .full {
         width: 100%;
@@ -114,10 +117,5 @@
         width: calc(50% - 1vw);
         display: inline-block;
         position: relative;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .container {
-        width: 50vw;
     }
 }
