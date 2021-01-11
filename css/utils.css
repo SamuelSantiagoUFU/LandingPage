@@ -28,7 +28,16 @@
     transform: translate(-50%, -50%);
 }
 .yellow {
-    background: #fcbf39;
+    background-color: #fcbf39;
+}
+.blue {
+    background-color: #0abede;
+}
+.fuschia {
+    background-color: #d60ade;
+}
+.green {
+    background-color: #24971d;
 }
 .txt-center {
     text-align: center;
@@ -41,6 +50,15 @@
 }
 .txt-pink {
     color: #db0452;
+}
+.txt-fuschia {
+    color: #d60ade;
+}
+.txt-blue {
+    color: #0abede;
+}
+.txt-green {
+    color: #25981e;
 }
 .shadow {
     box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
@@ -57,8 +75,8 @@
 .col-12 {
     margin-top: 1em;
 }
-.col-6 * {
-    width: 100%;
+.col-12 *:not(.full), .col-6 *:not(.full) {
+    max-width: 100%;
 }
 .mobile-only {
     display: inline-block;
